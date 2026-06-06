@@ -1,0 +1,17 @@
+{
+  "name": "ts-logger-pro",
+  "version": "1.0.0",
+  "description": "A beautiful, highly configurable console logger in TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["logger", "typescript", "console", "terminal"],
+  "author": "Developer",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
