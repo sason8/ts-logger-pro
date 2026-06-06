@@ -1,17 +1,29 @@
 {
   "name": "ts-logger-pro",
   "version": "1.0.0",
-  "description": "A beautiful, highly configurable console logger in TypeScript",
+  "description": "A beautiful, highly configurable, multi-transport console and file logger in TypeScript",
   "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "scripts": {
-    "build": "tsc",
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["logger", "typescript", "console", "terminal"],
+  "keywords": ["logger", "typescript", "console", "file-logger", "json-logging", "node"],
   "author": "Developer",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0",
+    "tsup": "^7.2.0",
+    "vitest": "^0.34.6"
   }
 }
