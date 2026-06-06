@@ -1,4 +1,4 @@
-# đź“ś TS Logger Pro
+# 📜 TS Logger Pro
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
@@ -6,10 +6,10 @@
 A lightweight, beautiful, and strictly-typed console logger library for Node.js written in TypeScript. 
 
 ## Features
-- đźŽ¨ Zero-dependency ANSI color formatting
-- âŹ±ď¸Ź Automatic ISO timestamps
-- đź›ˇď¸Ź 100% strictly typed (TypeScript)
-- đź“¦ Out-of-the-box CommonJS support with TypeScript declaration files
+- 🎨 Zero-dependency ANSI color formatting
+- ⏱️ Automatic ISO timestamps
+- 🛡️ 100% strictly typed (TypeScript)
+- 📦 Out-of-the-box CommonJS support with TypeScript declaration files
 
 ## Installation
 
